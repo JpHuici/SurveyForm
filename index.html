@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Survey Form Project-webshop</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Survey Form Project-Webshop</h1>
+    <p id="description">Thank you for helping us to improve our online store.</p>
+  </header>
+  <form id="survey-form">
+
+    <div class="form-control">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="form-control">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+    </div>
+
+    <div class="form-control">
+      <label for="number" id="number-label">Age<span class="clue"> (optional)</span></label>
+      <input type="number" id="number" min="5" max="100" placeholder="Enter your age" />
+    </div>
+
+    <div class="form-control">
+      <label for="role" id="label-role">How did you find out about our website?</label>
+
+      <select name="role" id="dropdown">
+        <option value="search">Search</option>
+        <option value="friends">Friends</option>
+        <option value="advertisment">Advertisment</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label>Which of the following products have you ever purchased online?</label>
+      <label for="inp-1">
+        <input type="checkbox" name="inp" value="shoes">Shoes</input></label>
+      <label for="inp-2">
+        <input type="checkbox" name="inp" value="shirt">Shirt</input></label>
+      <label for="inp-3">
+        <input type="checkbox" name="inp" value="glasses">Glasses</input></label>
+      <label for="inp-4">
+        <input type="checkbox" name="inp" value="jacket">Jacket</input></label>
+      <label for="inp-5">
+        <input type="checkbox" name="inp" value="pants">Pants</input></label>
+      <label for="inp-6">
+        <input type="checkbox" name="inp" value="dress">Dress</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp" value="hat">Hat</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp" value="none">None</input></label>
+    </div>
+
+    <div class="form-control">
+      <label>What do you think is the most important aspect of an online shopping site?</label>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed-x" value="security">Security</input>
+      </label>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed-x" value="trust">Trust</input>
+      </label>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed-x" value="privacy">Privacy</input>
+      </label>
+    </div>
+
+    <div class="form-control">
+      <label>Would you recommed our webstore to a friend?</label>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed-y" value="yes">Yes</input>
+      </label>
+      <label for="recommed-4">
+        <input type="radio" id="recommed-4" name="recommed-y" value="no">No</input>
+      </label>
+      <label for="recommed-5">
+        <input type="radio" id="recommed-5" name="recommed-y" value="maybe">Maybe</input>
+      </label>
+    </div>
+
+    <div class="form-control">
+      <label for="comment">Any comments or suggestions</label>
+      <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+    </div>
+
+    <button type="submit" value="submit" id="submit">Submit</button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f5f6fa;
+    text-align: center;
+    }
+ 
+form {
+    background-color: rgba(179, 57, 57, 0.8);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(247, 237, 237, 0.5);
+     }
+
+ /*Classes*/
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+    }
+ 
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    }
+ 
+.form-control input, .form-control select, .form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    }
+ 
+.form-control input[type="radio"], .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    }
+.form-control textarea{
+    overflow: scroll;
+    resize: none;
+    }
+ 
+/* Styling Button */
+button {
+    background-color: #d1ccc0;
+    color: #1e272e;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
